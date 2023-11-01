@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.navbar{
+    padding: 1%;
+    border-bottom: 1px solid gainsboro;
+    color: rgb(245, 245, 0);
+    font-size: 2rem;
+}
+.navbar p{
+    text-shadow: 2px 2px black;
+}
+.p{
+    color: blueviolet;
+    text-shadow: 2px 2px yellow;
+    font-size: 3rem;
+}
+.min{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.min .div-a,.div-b{
+    width: 30%;
+}
+.div-main{
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    text-align: center;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    width: 40%;
+    height: 450px;
+}
+#GuessInput{
+    padding: 2%;
+    outline: none;
+    width: 70%;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-top: 5%;
+    color: darkorange;
+}
+/* :-webkit-text-stroke{
+    border: 2px solid black;
+} */
+#GuessBtn{
+    padding: 2%;
+    width: 40%;
+    margin-top: 5%;
+    border: 1px solid rgb(32, 218, 41);
+    border-radius: 5px;
+    background-color: rgb(32, 218, 41);
+    cursor: pointer;
+    color: white;
+}
+#reset{
+    padding: 2%;
+    width: 30%;
+    margin-top: 5%;
+    border: 1px solid rgb(218, 32, 32);
+    border-radius: 5px;
+    background-color: rgb(218, 32, 32);
+    cursor: pointer;
+    color: white;
+}
+#result{
+    margin-top: 5%;
+    color: gold;
+    text-shadow: 2px 2px black;
+    font-size: 3rem;
+}
